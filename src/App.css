@@ -1,0 +1,9 @@
+@font-face {
+  font-family: myfont;
+  src: url(hemicube-personal-use-only.regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

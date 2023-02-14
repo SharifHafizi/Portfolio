@@ -1,0 +1,142 @@
+:root {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.maincon {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("map.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  text-align: left;
+  color: black;
+
+  font-family: "Libre Franklin", sans-serif;
+  height: 430px;
+  top: 128px;
+  position: absolute;
+}
+
+.leftcontainer {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+  padding: 2%;
+  width: 300px;
+}
+.leftconelement {
+  padding: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.rightcontainer {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(0px);
+  box-shadow: var(--color-shadow);
+  padding: 2%;
+}
+.rightconelement {
+  margin-top: 10px;
+}
+
+.labelel {
+  font-size: 15px;
+  font-weight: 600;
+}
+.labelel span {
+  color: red;
+}
+.labelinput {
+  margin-top: 6px;
+  margin-bottom: 15px;
+  padding-right: 380px;
+  padding-left: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 3px 3px 5px gray;
+}
+.labelinput:hover {
+  border: 1px solid #ffa407;
+  box-shadow: 0 0 7px #fa682e;
+}
+.btn {
+  margin: 10px;
+  width: 115px;
+  height: 35px;
+  border-radius: 20px;
+  background: azure;
+  border: 1px solid orange;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px gray;
+}
+.btn:hover {
+  background: orange;
+  border: 1px solid azure;
+  color: white;
+}
+.emoji {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  margin: 3px;
+  border: 1px solid orange;
+}
+
+.contacttext {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.contacttext p {
+  font-size: 10px;
+  padding-left: 3px;
+}
+.contacttext a {
+  text-decoration: none;
+  color: black;
+}
+.submitText {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.submitText h3 {
+  color: ivory;
+  text-decoration: underline #ff3028;
+  background: rgb(35, 179, 227);
+}
+.contactlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+}
+.contactlogo img {
+  width: 25px;
+}
+.contactlogo a {
+  height: 25px;
+}
+.contactlogo img:hover {
+  filter: brightness(130%);
+}

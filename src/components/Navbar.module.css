@@ -1,0 +1,76 @@
+:root {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.navContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+}
+.nameLogoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.nameLogoContainer img {
+  border-radius: 50%;
+}
+@keyframes logorotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+.nameLogoContainer img {
+  animation: logorotat 25s linear 3s infinite;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.name h2 {
+  margin: 0;
+  font-size: 26px;
+}
+.name p {
+  margin: 0;
+  font-size: 13.5px;
+  color: rgb(249, 101, 47);
+}
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.menuContainer h4 {
+  text-decoration: line-through;
+  color: rgb(249, 101, 47);
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  font-style: oblique;
+  font-weight: 700;
+}
+.link:hover {
+  color: rgb(249, 101, 47);
+}
+.link span {
+  color: rgb(249, 101, 47);
+}
+.link span:hover {
+  filter: brightness(120%);
+}

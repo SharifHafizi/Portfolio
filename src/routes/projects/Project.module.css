@@ -1,0 +1,76 @@
+.maincon {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHBvcnRmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2000&q=60");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.maincon h1 {
+  color: rgb(249, 101, 47);
+
+  bottom: 80px;
+  font-size: 50px;
+}
+.maincon hr {
+  height: 2px;
+  width: 500px;
+}
+.containt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 200px;
+  height: 320px;
+  border-radius: 10px;
+}
+.containt p {
+  margin: 5px;
+  font-size: 14px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  border: rgb(238, 118, 118) 2px solid;
+  font-size: 15px;
+  background-color: rgb(249, 101, 47);
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 89px;
+  height: 29px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 1px solid orange;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectImg {
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.buttons a {
+  text-decoration: none;
+}

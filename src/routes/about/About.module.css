@@ -1,0 +1,70 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme {
+  position: absolute;
+  top: 75px;
+  font-size: 60px;
+  color: rgb(234 215 188);
+  text-shadow: 1px 2px 1px rgb(216, 194, 194);
+}
+.maincontent {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.picture {
+}
+.pitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+.pitch h2,
+p span {
+  color: coral;
+  text-align: center;
+  margin: 10px;
+}
+.rotate {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 80px;
+  height: 25px;
+  width: 45px;
+
+  transform: rotate(90deg);
+}
+.rotate h1 {
+  font-size: 11px;
+  letter-spacing: 13px;
+}
+.rotate span {
+  font-size: 27px;
+  height: 38px;
+}
+.cv {
+  margin: 10px;
+  width: 115px;
+  height: 35px;
+  border-radius: 20px;
+  background: azure;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+.cv:hover {
+  background: orange;
+  border: 1px solid azure;
+  color: white;
+}
