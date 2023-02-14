@@ -6,7 +6,7 @@ import Skills from "./routes/skills/Skills";
 import About from "./routes/about/About";
 import Contact from "./routes/contact/Contact";
 import Error from "./routes/Error/Error";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
