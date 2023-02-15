@@ -42,7 +42,7 @@ function Projects() {
         <div className={style.containt}>
           <img
             className={style.projectImg}
-            src="src\routes\projects\DrumKitJS.png"
+            src="Portfolio\src\routes\projects\DrumKitJS.png"
             alt="projectlogo"
           />
           <p>
