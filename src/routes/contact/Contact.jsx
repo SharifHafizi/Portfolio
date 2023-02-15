@@ -1,6 +1,9 @@
 import style from "./Contact.module.css";
 import { useState } from "react";
 import { useRef } from "react";
+
+import discordIcon from "./discord.png";
+
 function Contact() {
   const [message, setMessage] = useState();
   const commentRef = useRef(null);
@@ -55,7 +58,7 @@ function Contact() {
           </div>
           <div className={style.contactlogo}>
             <a href="https://discord.com/channels/@me">
-              <img src="src\routes\contact\discord.png" alt="discord" />
+              <img src={discordIcon} alt="discord" />
             </a>
             <a href="https://github.com/SharifHafizi">
               <img src="src\routes\contact\githubSmal.png" alt="github" />

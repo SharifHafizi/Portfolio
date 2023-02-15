@@ -21,10 +21,11 @@ function Skills() {
           <hr />
           <img
             className={style.logo1}
-            src="src\routes\skills\figma.png"
+            src="\Portfolio\src\routes\skills\figma.png"
             alt="logo"
             width="100px"
           />
+          <h3>Figma</h3>
         </div>
 
         <div className={style.card2}>
