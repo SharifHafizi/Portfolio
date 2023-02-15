@@ -1,4 +1,10 @@
 import style from "./Skill.module.css";
+import figma from "./img-file/figma.png";
+import java from "./img-file/javas.png";
+import react from "./img-file/Reactbig.png";
+import html from "./img-file/html.png";
+import css from "./img-file/css.png";
+import github from "./img-file/github4.png";
 function Skills() {
   return (
     <div className={style.maincon}>
@@ -19,50 +25,36 @@ function Skills() {
       <div className={style.logo}>
         <div className={style.card1}>
           <hr />
-          <img
-            className={style.logo1}
-            src="\Portfolio\src\routes\skills\figma.png"
-            alt="logo"
-            width="100px"
-          />
-          <h3>Figma</h3>
+          <img className={style.logo1} src={figma} alt="logo" width="120px" />
+          <h2>Figma</h2>
         </div>
 
         <div className={style.card2}>
           <hr />
-          <img
-            className={style.logo2}
-            src="src\routes\skills\javas.png"
-            alt="logo"
-            width="100px"
-          />
+          <img className={style.logo2} src={java} alt="logo" width="120px" />
+          <h2>Java Script</h2>
         </div>
+
         <div className={style.card3}>
           <hr />
-          <img
-            className={style.logo3}
-            src="src\routes\skills\Reactbig.png"
-            alt="logo"
-            width="100px"
-          />
+          <img className={style.logo3} src={react} alt="logo" width="120px" />
+          <h2>React</h2>
         </div>
         <div className={style.card4}>
           <hr />
-          <img
-            className={style.logo2}
-            src="src\routes\skills\html.png"
-            alt="logo"
-            width="100px"
-          />
+          <img className={style.logo2} src={html} alt="logo" width="120px" />
+          <h2>HTML</h2>
         </div>
         <div className={style.card5}>
           <hr />
-          <img
-            className={style.logo3}
-            src="src\routes\skills\css.png"
-            alt="logo"
-            width="100px"
-          />
+          <img className={style.logo3} src={css} alt="logo" width="120px" />
+          <h2>CSS</h2>
+        </div>
+
+        <div className={style.card2}>
+          <hr />
+          <img className={style.logo2} src={github} alt="logo" width="120px" />
+          <h2>GitHub</h2>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .maincon {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHBvcnRmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2000&q=60");
+  background-color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;

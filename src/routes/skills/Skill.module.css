@@ -47,38 +47,39 @@
 .card5 {
   display: flex;
   justify-content: center;
+  align-self: flex-end;
 }
 .card1 hr {
   width: 0px;
   height: 325px;
-  top: -118px;
+  top: -114px;
   position: absolute;
 }
 
 .card2 hr {
   width: 0px;
-  height: 211px;
-  top: -118px;
+  height: 220px;
+  top: -114px;
   position: absolute;
 }
 
 .card3 hr {
   width: 0px;
-  height: 301px;
-  top: -118px;
+  height: 335px;
+  top: -114px;
   position: absolute;
 }
 
 .card4 hr {
   width: 0px;
-  height: 208px;
-  top: -118px;
+  height: 215px;
+  top: -114px;
   position: absolute;
 }
 
 .card5 hr {
   width: 0px;
-  height: 289px;
-  top: -118px;
+  height: 300px;
+  top: -114px;
   position: absolute;
 }

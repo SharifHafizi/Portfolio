@@ -1,4 +1,5 @@
 import style from "./About.module.css";
+import newlogo2 from "./img-file/newlogo2.png";
 function About() {
   return (
     <div className={style.main}>
@@ -7,12 +8,7 @@ function About() {
       </div>
       <div className={style.maincontent}>
         <div className={style.picture}>
-          <img
-            src="src\assets\newlogo2.png"
-            alt="picture"
-            width="300px"
-            height="500px"
-          />
+          <img src={newlogo2} alt="picture" width="300px" height="450px" />
         </div>
         <div className={style.pitch}>
           <div className={style.rotate}>

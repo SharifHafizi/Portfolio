@@ -2,7 +2,11 @@ import style from "./Contact.module.css";
 import { useState } from "react";
 import { useRef } from "react";
 
-import discordIcon from "./discord.png";
+import discordIcon from "./img-file/discord.png";
+import githubIcon from "./img-file/githubSmal.png";
+import gmail from "./img-file/gmail.png";
+import linkedIn from "./img-file/In.png";
+import twitter from "./img-file/twitter.png";
 
 function Contact() {
   const [message, setMessage] = useState();
@@ -61,14 +65,14 @@ function Contact() {
               <img src={discordIcon} alt="discord" />
             </a>
             <a href="https://github.com/SharifHafizi">
-              <img src="src\routes\contact\githubSmal.png" alt="github" />
+              <img src={githubIcon} alt="github" />
             </a>
             <a href="mailto:sharif.hafizi97@gmail.com">
-              <img src="src\routes\contact\gmail.png" alt="gmail" />
+              <img src={gmail} alt="gmail" />
             </a>
-            <img src="src\routes\contact\In.png" alt="in" />
+            <img src={linkedIn} alt="in" />
 
-            <img src="src\routes\contact\twitter.png" alt="twitter" />
+            <img src={twitter} alt="twitter" />
           </div>
         </div>
         <div className={style.rightcontainer}>

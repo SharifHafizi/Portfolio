@@ -1,4 +1,6 @@
 import style from "./HomePage.module.css";
+import newlogo3 from "../assets/newlogo3.png";
+import newlogo2 from "../assets/newlogo2.png";
 function HomePage() {
   return (
     <>
@@ -14,10 +16,10 @@ function HomePage() {
             HAFIZI<span>.</span>
           </h1>
           <h3>WEB DEVELOPER & DESIGNER</h3>
-          <img src="src\assets\newlogo.png" alt="logo" width="100px" />
+          <img src={newlogo3} alt="logo" width="100px" />
         </div>
         <div className={style.maintext2}>
-          <img src="src\assets\newlogo.png" alt="logo" width="100px" />
+          <img src={newlogo2} alt="logo" width="100px" />
           <h4>
             <span>&#60;</span> Brings ideas to life with code.
             <span>/&#62;</span>
