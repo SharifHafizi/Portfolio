@@ -6,6 +6,7 @@ import Skills from "./routes/skills/Skills";
 import About from "./routes/about/About";
 import Contact from "./routes/contact/Contact";
 import Error from "./routes/Error/Error";
+import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

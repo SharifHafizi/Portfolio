@@ -6,25 +6,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.maincon a {
+  text-decoration: none;
 }
 .maincon h1 {
   color: rgb(249, 101, 47);
-
-  bottom: 80px;
-  font-size: 50px;
+  font-size: 60px;
 }
 .maincon hr {
   height: 2px;
-  width: 500px;
+  width: 1000px;
 }
 .containt {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  width: 200px;
-  height: 320px;
+  width: 240px;
+  height: 380px;
   border-radius: 10px;
 }
 .containt p {
@@ -34,10 +37,11 @@
 .buttons {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .button1 {
-  width: 90px;
-  height: 30px;
+  width: 97px;
+  height: 32px;
   border-radius: 20px;
   border: rgb(238, 118, 118) 2px solid;
   font-size: 15px;
@@ -48,8 +52,8 @@
 }
 
 .button2 {
-  width: 89px;
-  height: 29px;
+  width: 97px;
+  height: 32px;
   border-radius: 20px;
   font-size: 15px;
   border: 1px solid orange;
@@ -61,7 +65,7 @@
 }
 
 .projectImg {
-  width: 200px;
+  width: 240px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -69,7 +73,7 @@
 .cards {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 .buttons a {
   text-decoration: none;

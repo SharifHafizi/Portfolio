@@ -20,7 +20,7 @@
 
   font-family: "Libre Franklin", sans-serif;
   height: 430px;
-  top: 128px;
+  top: 150px;
   position: absolute;
 }
 
@@ -69,10 +69,10 @@
 
   box-shadow: 3px 3px 5px gray;
 }
-.labelinput:hover {
+/* .labelinput:hover {
   border: 1px solid #ffa407;
   box-shadow: 0 0 7px #fa682e;
-}
+} */
 .btn {
   margin: 10px;
   width: 115px;

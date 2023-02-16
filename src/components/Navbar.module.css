@@ -15,6 +15,8 @@
   background-color: var(--color-glass);
   backdrop-filter: blur(12px);
   box-shadow: var(--color-shadow);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .nameLogoContainer {
   display: flex;
@@ -34,6 +36,7 @@
 }
 .nameLogoContainer img {
   animation: logorotat 25s linear 3s infinite;
+  align-self: flex-end;
 }
 .name {
   display: flex;
@@ -42,11 +45,12 @@
 }
 .name h2 {
   margin: 0;
-  font-size: 26px;
+  font-size: 27px;
 }
 .name p {
   margin: 0;
-  font-size: 13.5px;
+  font-size: 13.9px;
+  font-weight: 600;
   color: rgb(249, 101, 47);
 }
 .menuContainer {
@@ -61,8 +65,8 @@
 .link {
   text-decoration: none;
   color: black;
-  font-size: small;
-  font-style: oblique;
+  font-size: smaller;
+
   font-weight: 700;
 }
 .link:hover {
@@ -74,3 +78,30 @@
 .link span:hover {
   filter: brightness(120%);
 }
+
+.link::after {
+  content: "";
+  width: 0px;
+  height: 2.5px;
+  display: block;
+  background: orange;
+  transition: 600ms;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+/* .link span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -4px;
+  left: 0;
+  background-color: #f9cb40;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+
+  
+} */

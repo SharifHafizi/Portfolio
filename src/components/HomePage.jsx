@@ -1,6 +1,7 @@
 import style from "./HomePage.module.css";
 import newlogo3 from "../assets/newlogo3.png";
 import newlogo2 from "../assets/newlogo2.png";
+import Typewriter from "typewriter-effect";
 function HomePage() {
   return (
     <>
@@ -10,12 +11,22 @@ function HomePage() {
             I<span>'</span>M
           </h1>
           <h1>
-            <span>SHARIF</span>{" "}
+            <span>SHARIF</span>
           </h1>
           <h1>
             HAFIZI<span>.</span>
           </h1>
-          <h3>WEB DEVELOPER & DESIGNER</h3>
+          <h3>
+            <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+                delay: 100,
+                strings: ["WEB DEVELOPER & DESIGNER"],
+              }}
+            />
+          </h3>
+
           <img src={newlogo3} alt="logo" width="100px" />
         </div>
         <div className={style.maintext2}>

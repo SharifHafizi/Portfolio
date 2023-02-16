@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.mainCon {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: #ffffff;
+  width: 100vw;
+  height: 55px;
+  bottom: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: 3.5px rgb(246, 134, 48) solid;
+  border-bottom: rgb(253, 137, 13) 3.5px solid;
+  font-family: sans-serif;
+}
+.mainCon p {
+  font-size: small;
+}
+.footerlogo {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}

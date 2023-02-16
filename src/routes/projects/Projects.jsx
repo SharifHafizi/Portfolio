@@ -8,7 +8,7 @@ import pokedex from "./img-file/Pokedex.png";
 function Projects() {
   return (
     <div className={style.maincon}>
-      <h1>My Projects</h1>
+      <h1> 01 My Projects</h1>
       <hr />
 
       <div className={style.cards}>
@@ -109,6 +109,12 @@ function Projects() {
           </div>
         </div>
       </div>
+      <p>
+        For more projects please visit here{" "}
+        <a href="https://github.com/SharifHafizi">
+          <span> &#8594;</span>
+        </a>
+      </p>
     </div>
   );
 }
