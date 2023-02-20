@@ -24,6 +24,8 @@
   gap: 50px;
 }
 .picture {
+  width: 350px;
+  height: 400px;
 }
 .pitch {
   display: flex;

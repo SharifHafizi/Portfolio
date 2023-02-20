@@ -1,5 +1,17 @@
 import style from "./About.module.css";
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 import newlogo2 from "./img-file/newlogo2.png";
+import img from "./img-file/img.jpg";
+import img2 from "./img-file/img2.gif";
+const fadeProperties = {
+  duration: 4000,
+  transitionDuration: 800,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+};
+const Images = [img, img2, newlogo2];
 function About() {
   return (
     <div className={style.main}>
@@ -8,7 +20,17 @@ function About() {
       </div>
       <div className={style.maincontent}>
         <div className={style.picture}>
-          <img src={newlogo2} alt="picture" width="300px" height="450px" />
+          <Fade {...fadeProperties}>
+            {Images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt="picture"
+                width="350px"
+                height="400px"
+              />
+            ))}
+          </Fade>
         </div>
         <div className={style.pitch}>
           <div className={style.rotate}>
