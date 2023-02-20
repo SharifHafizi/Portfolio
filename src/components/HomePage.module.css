@@ -30,6 +30,12 @@
 .maintext h3 {
   font-size: 13px;
 }
+.maintext img {
+  padding-top: 10px;
+  position: relative;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
 .maintext2 {
   box-sizing: border-box;
   display: flex;

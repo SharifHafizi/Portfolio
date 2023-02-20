@@ -4,6 +4,7 @@ import "react-slideshow-image/dist/styles.css";
 import newlogo2 from "./img-file/newlogo2.png";
 import img from "./img-file/img.jpg";
 import img2 from "./img-file/img2.gif";
+import CV from "./img-file/My CV.docx.pdf";
 const fadeProperties = {
   duration: 4000,
   transitionDuration: 800,
@@ -60,7 +61,7 @@ function About() {
               healthy. I go to the gym almost every day and play volleyball in
               my spare time. Also doing brain exercise with writing code .
             </p>
-            <a href="src\images\image.png" download>
+            <a href={CV} download>
               <button className={style.cv}>Download CV</button>
             </a>
           </div>

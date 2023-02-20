@@ -27,7 +27,7 @@ function HomePage() {
             />
           </h3>
 
-          <img src={newlogo3} alt="logo" width="100px" />
+          <img src={newlogo3} alt="logo" width="183px" />
         </div>
         <div className={style.maintext2}>
           <img src={newlogo2} alt="logo" width="100px" />
