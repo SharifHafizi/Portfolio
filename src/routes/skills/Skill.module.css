@@ -1,6 +1,8 @@
 .maincon {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  min-width: 800px;
+  min-height: 627px;
   background-color: antiquewhite;
   display: flex;
   justify-content: space-around;
@@ -15,6 +17,9 @@
   top: 120px;
   color: coral;
   font-size: 55px;
+  position: fixed;
+  min-width: 25%;
+  display: inline;
 }
 .logo {
   position: absolute;
@@ -23,6 +28,7 @@
   align-items: center;
   width: 100vw;
   height: 50vh;
+  min-width: 800px;
 }
 .logo1 {
   position: absolute;

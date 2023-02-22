@@ -4,7 +4,7 @@ import NewyearProjet from "./img-file/project-newyear.png";
 import DrumKitJS from "./img-file/DrumKitJS.png";
 import SSP from "./img-file/Solar-System-Project.png";
 import pokedex from "./img-file/Pokedex.png";
-
+// images imported for the projects cards.
 function Projects() {
   return (
     <div className={style.maincon}>
@@ -20,8 +20,8 @@ function Projects() {
             alt="projectlogo"
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nobis
-            corporis, rerum quod veniam accusantium
+            New year counter project. This project were made by JS and React
+            with some CSS.
           </p>
 
           <div className={style.buttons}>
@@ -43,8 +43,9 @@ function Projects() {
         <div className={style.containt}>
           <img className={style.projectImg} src={DrumKitJS} alt="projectlogo" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nobis
-            corporis, rerum quod veniam accusantium
+            Drumkit Project which is purely made by javaScript. It works very
+            fine and is ready to use as tablets or mobile apps. Internal CSS
+            applied.
           </p>
 
           <div className={style.buttons}>
@@ -66,8 +67,8 @@ function Projects() {
         <div className={style.containt}>
           <img className={style.projectImg} src={SSP} alt="projectlogo" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nobis
-            corporis, rerum quod veniam accusantium
+            Solar system projetcs which is purely made just by HTML and CSS. It
+            was my first project after learning html and css.
           </p>
 
           <div className={style.buttons}>
@@ -89,8 +90,8 @@ function Projects() {
         <div className={style.containt}>
           <img className={style.projectImg} src={pokedex} alt="projectlogo" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nobis
-            corporis, rerum quod veniam accusantium
+            Pokedex projects is maded with JS and CSS. In this project we
+            learned how to use API and fetch data.
           </p>
 
           <div className={style.buttons}>

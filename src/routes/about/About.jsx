@@ -2,15 +2,15 @@ import style from "./About.module.css";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import newlogo2 from "./img-file/newlogo2.png";
-import img from "./img-file/img.jpg";
-import img2 from "./img-file/img2.gif";
+import img from "./img-file/colors.jpg";
+import img2 from "./img-file/code.jpg";
 import CV from "./img-file/My CV.docx.pdf";
 const fadeProperties = {
   duration: 4000,
   transitionDuration: 800,
   infinite: true,
-  indicators: true,
-  arrows: true,
+  indicators: false,
+  arrows: false,
 };
 const Images = [img, img2, newlogo2];
 function About() {

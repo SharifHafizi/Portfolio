@@ -11,7 +11,9 @@
   justify-content: space-between;
   background-color: black;
   color: #ffffff;
-  width: 100vw;
+  width: 100%;
+  min-width: 800px;
+
   height: 55px;
   bottom: 0;
   padding-left: 50px;
