@@ -35,8 +35,9 @@
   border-radius: 10px;
 }
 .containt p {
-  margin: 5px;
-  font-size: 14px;
+  margin: 20px;
+  font-size: 12px;
+  font-family: "Orbitron";
 }
 .buttons {
   display: flex;

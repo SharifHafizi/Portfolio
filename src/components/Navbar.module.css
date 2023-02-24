@@ -22,10 +22,14 @@
 .nameLogoContainer {
   display: flex;
   flex-direction: row;
+  align-items: end;
   gap: 5px;
 }
 .nameLogoContainer img {
   border-radius: 50%;
+}
+.nameLogoContainer a {
+  height: 50px;
 }
 @keyframes logorotate {
   from {
@@ -69,6 +73,9 @@
   font-size: smaller;
 
   font-weight: 700;
+}
+.link:focus {
+  color: rgb(249, 101, 47);
 }
 .link:hover {
   color: rgb(249, 101, 47);

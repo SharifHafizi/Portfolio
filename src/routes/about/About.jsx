@@ -43,11 +43,11 @@ function About() {
           <div className={style.pitchtext}>
             <h2>Pitch</h2>
             <p>
-              <span>01&#8250;</span> My name is Sharif Hafizi. I am 25 years old
+              <span>01&#8250;</span> My name is Sharif Hafizi. I am 26 years old
               and have lived in Norway since June 2021. I have lived in the USA
               following programming knowledge for a period of time before I
-              moved to Norway. <br /> <span>02&#8250;</span> Right now I am
-              attending Kodehode, a 1 year frontend developer course. I love
+              moved to Norway. <br /> <br /> <span>02&#8250;</span> Right now I
+              am attending Kodehode, a 1 year frontend developer course. I love
               problem solving and finding logical solutions.. When I was a child
               I always tried to fix my PC myself and then I became interested in
               learning more about computers and software, especially writing
@@ -56,7 +56,7 @@ function About() {
               is very much something I can see myself doing professionally. I’m
               a firm believer in finding happiness through a job I love, and I
               feel that working as a software or web developer is the kind of
-              field that actually inspires me to do so. <br />{" "}
+              field that actually inspires me to do so. <br /> <br />
               <span>03&#8250;</span> I also like to be active, social and
               healthy. I go to the gym almost every day and play volleyball in
               my spare time. Also doing brain exercise with writing code .

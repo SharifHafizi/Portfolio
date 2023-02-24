@@ -1,6 +1,7 @@
 import style from "./Contact.module.css";
 import { useState } from "react";
 import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 import discordIcon from "./img-file/discord.png";
 import githubIcon from "./img-file/githubSmal.png";
@@ -12,17 +13,33 @@ function Contact() {
   const [message, setMessage] = useState();
   const commentRef = useRef(null);
   const emailRef = useRef(null);
-  const lnameRef = useRef(null);
+  const subjectRef = useRef(null);
   const fnameRef = useRef(null);
+  const form = useRef();
 
   function handleClick(e) {
     e.preventDefault();
 
+    emailjs
+      .sendForm(
+        "service_zmwhhfw",
+        "template_jzamnb3",
+        form.current,
+        "dUpSLyoC3HEqmJmaD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     if (commentRef.current.validity.valid && emailRef.current.validity.valid) {
       emailRef.current.value = "";
       commentRef.current.value = "";
       fnameRef.current.value = "";
-      lnameRef.current.value = "";
+      subjectRef.current.value = "";
       setMessage("Thanks for submitting.");
     }
   }
@@ -37,9 +54,8 @@ function Contact() {
               alt="image"
             />
             <h2>Contact Me</h2>
-            <h4>
-              I would love to hear from you ! <br />
-            </h4>
+            <h4>I would love to hear from you !</h4>
+            <br />
             <div className={style.contacttext}>
               <div className={style.emoji}>☎</div>
               <a href="tel:+4793898381">
@@ -78,33 +94,21 @@ function Contact() {
         <div className={style.rightcontainer}>
           <h4>Feel free to drop me a line below!</h4>
           <div className={style.rightconelement}>
-            <form onSubmit={(e) => handleClick(e)} type="submit">
+            <form onSubmit={(e) => handleClick(e)} type="submit" ref={form}>
               <label className={style.labelel} for="fname">
-                First Name:<span>*️</span>
+                Name:<span>*️</span>
               </label>
               <br />
               <input
                 type="text"
                 class={style.labelinput}
                 id="fname"
-                placeholder="Enter First Name"
-                name="fname"
+                placeholder="Name"
+                name="user_name"
                 required
                 ref={fnameRef}
               />
-              <br />
-              <label class={style.labelel} for="lname">
-                Last Name:
-              </label>
-              <br />
-              <input
-                type="text"
-                className={style.labelinput}
-                id="lname"
-                placeholder="Enter Last Name"
-                name="lname"
-                ref={lnameRef}
-              />
+
               <br />
               <label class={style.labelel} for="email">
                 Email:<span>*️</span>
@@ -114,10 +118,24 @@ function Contact() {
                 type="email"
                 class={style.labelinput}
                 id="email"
-                placeholder="Enter email"
-                name="email"
+                placeholder="Email"
+                name="user_email"
                 required
                 ref={emailRef}
+              />
+              <br />
+              <label class={style.labelel} for="subject">
+                Subject:<span>*️</span>
+              </label>
+              <br />
+              <input
+                type="text"
+                className={style.labelinput}
+                id="subject"
+                placeholder="Subject"
+                name="user_subject"
+                required
+                ref={subjectRef}
               />
               <br />
               <label className={style.labelel} for="comment">
@@ -127,14 +145,14 @@ function Contact() {
               <textarea
                 type="text"
                 id="comment"
-                name="comment"
+                name="user_msg"
                 className={style.labelinput}
                 required
                 ref={commentRef}
               ></textarea>
               <br />
               <div className={style.submitText}>
-                <button type="submit" className={style.btn}>
+                <button name="contact_btn" type="submit" className={style.btn}>
                   Submit &#8594;
                 </button>
                 <h3>{message}</h3>

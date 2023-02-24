@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <div className={style.navContainer}>
       <div className={style.nameLogoContainer}>
-        <img src={mylogo} alt="logo" width="50px" height="50px" />
+        <Link to="/">
+          <img src={mylogo} alt="logo" width="50px" height="50px" />
+        </Link>
         <div className={style.name}>
           <h2>SHARIF HAFIZI</h2>
           <p>WEB DEVELOPER & DESIGNER</p>

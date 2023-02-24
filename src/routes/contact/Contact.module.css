@@ -5,21 +5,20 @@
 .maincon {
   width: 100vw;
   height: 100vh;
+  min-width: 800px;
   background-image: url("./img-file/map.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .container {
   display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-  text-align: left;
+  justify-content: center;
   color: black;
 
   font-family: "Libre Franklin", sans-serif;
-  height: 430px;
+  height: 64.5%;
+  width: 100%;
   top: 150px;
   position: absolute;
 }
@@ -31,7 +30,6 @@
   backdrop-filter: blur(12px);
   box-shadow: var(--color-shadow);
   padding: 2%;
-  width: 300px;
 }
 .leftconelement {
   padding: 12px;
@@ -130,6 +128,7 @@
   justify-content: center;
   flex-direction: row;
   margin: 30px;
+  gap: 5px;
 }
 .contactlogo img {
   width: 25px;
