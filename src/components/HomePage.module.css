@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+/* google fonts imported and used. */
 .mainContainer {
   width: 100vw;
   height: 100vh;
@@ -27,6 +28,7 @@
 .maintext h1 {
   font-size: 60px;
 }
+/* style applied just to 3rd child of div. */
 .maintext :nth-child(3) {
   font-size: 65px;
 }

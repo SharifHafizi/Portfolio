@@ -5,10 +5,12 @@ import react from "./img-file/Reactbig.png";
 import html from "./img-file/html.png";
 import css from "./img-file/css.png";
 import github from "./img-file/github4.png";
+//imported logos.
 function Skills() {
   return (
     <div className={style.maincon}>
       <h1>02 My Skills</h1>
+      {/* Blank divs for styling the page  */}
       <div className={style.white}></div>
       <div className={style.white}></div>
       <div className={style.white}></div>

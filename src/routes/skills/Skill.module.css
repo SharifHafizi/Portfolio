@@ -12,14 +12,13 @@
 }
 
 .maincon h1 {
-  z-index: 1;
-  position: absolute;
   top: 120px;
   color: coral;
   font-size: 55px;
   position: fixed;
   min-width: 25%;
-  display: inline;
+  display: block;
+  margin: auto;
 }
 .logo {
   position: absolute;

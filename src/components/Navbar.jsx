@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// Link is used to navigate between pages like anchor tag.
 import style from "./Navbar.module.css";
 import mylogo from "../assets/mylogo.jpg";
 function Navbar() {

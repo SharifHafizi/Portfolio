@@ -9,3 +9,4 @@ function Error() {
   );
 }
 export default Error;
+// if the page not found we will refer to this page.

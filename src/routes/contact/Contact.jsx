@@ -1,7 +1,7 @@
 import style from "./Contact.module.css";
 import { useState } from "react";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"; //Emailjs packaged install to make contac form dynamic.
 
 import discordIcon from "./img-file/discord.png";
 import githubIcon from "./img-file/githubSmal.png";
@@ -19,7 +19,7 @@ function Contact() {
 
   function handleClick(e) {
     e.preventDefault();
-
+    // emailJs is used to send all data from contact form as an email.
     emailjs
       .sendForm(
         "service_zmwhhfw",
@@ -35,6 +35,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+    // Here conditional rendering will check if the validity is true then the function will clear all the form and response a submit message.
     if (commentRef.current.validity.valid && emailRef.current.validity.valid) {
       emailRef.current.value = "";
       commentRef.current.value = "";
@@ -145,10 +146,10 @@ function Contact() {
               <textarea
                 type="text"
                 id="comment"
-                name="user_msg"
+                name="user_msg" //To get the info and send it to email.
                 className={style.labelinput}
                 required
-                ref={commentRef}
+                ref={commentRef} //To clear the form
               ></textarea>
               <br />
               <div className={style.submitText}>
@@ -156,6 +157,7 @@ function Contact() {
                   Submit &#8594;
                 </button>
                 <h3>{message}</h3>
+                {/*  After submiting form and checking all conditions are true message will render. */}
               </div>
             </form>
           </div>

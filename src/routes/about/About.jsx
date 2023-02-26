@@ -1,10 +1,13 @@
 import style from "./About.module.css";
 import { Fade } from "react-slideshow-image";
+// This is a libray which is used for auto slideshow images.
 import "react-slideshow-image/dist/styles.css";
+//slide show style.
 import newlogo2 from "./img-file/newlogo2.png";
 import img from "./img-file/colors.jpg";
 import img2 from "./img-file/code.jpg";
 import CV from "./img-file/My CV.docx.pdf";
+// The line bellow is the setting of slideshow Images.
 const fadeProperties = {
   duration: 4000,
   transitionDuration: 800,
@@ -12,7 +15,7 @@ const fadeProperties = {
   indicators: false,
   arrows: false,
 };
-const Images = [img, img2, newlogo2];
+const Images = [img, img2, newlogo2]; //Array of images.
 function About() {
   return (
     <div className={style.main}>
@@ -21,6 +24,7 @@ function About() {
       </div>
       <div className={style.maincontent}>
         <div className={style.picture}>
+          {/* Here inside Fade tag properties distructed and loop through array. */}
           <Fade {...fadeProperties}>
             {Images.map((image, index) => (
               <img

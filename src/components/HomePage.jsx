@@ -1,7 +1,9 @@
 import style from "./HomePage.module.css";
+// style imported and module css used.
 import newlogo3 from "../assets/newlogo3.png";
 import newlogo2 from "../assets/newlogo2.png";
 import Typewriter from "typewriter-effect";
+// Typewriter imported and installed.
 function HomePage() {
   return (
     <>
@@ -17,6 +19,7 @@ function HomePage() {
             HAFIZI<span>.</span>
           </h1>
           <h3>
+            {/* Type writer is an auto writing animation package which is installed through npm and imported inside JSX. the text would be written inside the strings */}
             <Typewriter
               options={{
                 autoStart: true,

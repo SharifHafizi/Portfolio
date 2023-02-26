@@ -1,6 +1,7 @@
 :root {
   --color-glass: rgba(255, 255, 255, 0.05);
   --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  /* Own made color palette applied to root. */
 }
 .navContainer {
   position: absolute;
@@ -31,7 +32,7 @@
 .nameLogoContainer a {
   height: 50px;
 }
-@keyframes logorotate {
+/* @keyframes logorotate {
   from {
     transform: rotateY(0deg);
   }
@@ -42,7 +43,7 @@
 .nameLogoContainer img {
   animation: logorotat 25s linear 3s infinite;
   align-self: flex-end;
-}
+} */
 .name {
   display: flex;
   flex-direction: column;
@@ -99,17 +100,3 @@
 .link:hover::after {
   width: 100%;
 }
-/* .link span::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 3px;
-  bottom: -4px;
-  left: 0;
-  background-color: #f9cb40;
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out;
-
-  
-} */
