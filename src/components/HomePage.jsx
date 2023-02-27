@@ -1,7 +1,8 @@
 import style from "./HomePage.module.css";
 // style imported and module css used.
 import newlogo3 from "../assets/newlogo3.png";
-import newlogo2 from "../assets/newlogo2.png";
+import Profile1 from "../images/Profile1.jpg";
+
 import Typewriter from "typewriter-effect";
 // Typewriter imported and installed.
 function HomePage() {
@@ -29,11 +30,16 @@ function HomePage() {
               }}
             />
           </h3>
-
           <img src={newlogo3} alt="logo" width="183px" />
         </div>
         <div className={style.maintext2}>
-          <img src={newlogo2} alt="logo" width="100px" />
+          <div className={style.imgMainDiv}>
+            <div className={style.imgDiv1}></div>
+            <div className={style.imgDiv2}>
+              <img src={Profile1} alt="logo" />
+            </div>
+          </div>
+
           <h4>
             <span>&#60;</span> Brings ideas to life with code.
             <span>/&#62;</span>

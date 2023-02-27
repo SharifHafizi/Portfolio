@@ -75,5 +75,46 @@
 }
 .maintext2 img {
   border-radius: 50%;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.imgMainDiv {
+  width: 208px;
+  height: 208px;
+}
+.imgDiv1 {
+  position: absolute;
+  width: 208px;
+  height: 208px;
+  background: linear-gradient(
+    -45deg,
+    black 49%,
+    white 49%,
+    white 51%,
+    rgb(249, 101, 47) 51%
+  );
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imgDiv2 {
+  position: absolute;
+  width: 208px;
+  height: 208px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
