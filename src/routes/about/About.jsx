@@ -12,7 +12,7 @@ const fadeProperties = {
   duration: 4000,
   transitionDuration: 800,
   infinite: true,
-  indicators: false,
+  indicators: true,
   arrows: false,
 };
 const Images = [img, img2, newlogo2]; //Array of images.

@@ -1,7 +1,7 @@
 .main {
   width: 100vw;
   height: 100vh;
-  min-width: 800px;
+  min-width: 940px;
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
@@ -34,8 +34,8 @@
   align-items: center;
   flex-direction: row;
   width: 50%;
-  min-height: 552px;
-  min-width: 416px;
+
+  min-width: 446px;
 }
 .pitch h2,
 p span {

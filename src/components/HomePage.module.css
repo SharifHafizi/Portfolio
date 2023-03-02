@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
 /* google fonts imported and used. */
 .mainContainer {
-  width: 100vw;
-  height: 100vh;
-  min-width: 800px;
-  min-height: 626px;
+  width: 100%;
+  min-height: 92vh;
+  /* min-width: 940px; */
+
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
@@ -26,17 +27,19 @@
   color: rgb(249, 101, 47);
 }
 .maintext h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
+
 /* style applied just to 3rd child of div. */
 .maintext :nth-child(3) {
-  font-size: 65px;
+  font-size: 4.0625rem;
 }
 .maintext h3 {
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 .maintext img {
-  padding-top: 10px;
+  width: "183px";
+  padding-top: 0.625rem;
   position: relative;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -50,13 +53,13 @@
   letter-spacing: 1px;
 }
 .maintext2 h4 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 3.125rem;
   font-family: "Orbitron";
 }
 .maintext2 h4 span {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .maintext2 p {
   text-indent: 9%;
@@ -65,28 +68,30 @@
   letter-spacing: 1.5px;
   line-height: 1.3;
   line-break: auto;
-  padding-top: 10px;
+  padding-top: 0.625rem;
   font-family: "Orbitron";
 }
 .maintext2 span {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: rgb(249, 101, 47);
 }
 .maintext2 img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   margin: 0 auto;
 }
 .imgMainDiv {
-  width: 208px;
-  height: 208px;
+  width: 13rem;
+  height: 13rem;
 }
+
+/* Turning border for profile image. */
 .imgDiv1 {
   position: absolute;
-  width: 208px;
-  height: 208px;
+  width: 13rem;
+  height: 13rem;
   background: linear-gradient(
     -45deg,
     black 49%,
@@ -96,7 +101,7 @@
   );
   border-radius: 50%;
   animation-name: rotate;
-  animation-duration: 80s;
+  animation-duration: 110s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -111,10 +116,65 @@
 
 .imgDiv2 {
   position: absolute;
-  width: 208px;
-  height: 208px;
+  width: 13rem;
+  height: 13rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   margin: 0 auto;
+}
+@media (max-width: 935px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 375px) and (max-width: 568px) {
+  .maintext {
+    display: flex;
+    width: 55%;
+  }
+  .maintext2 {
+    width: 58%;
+  }
+  .maintext h1 {
+    font-size: 3rem;
+  }
+
+  /* style applied just to 3rd child of div. */
+  .maintext :nth-child(3) {
+    font-size: 3.45rem;
+  }
+  .maintext h3 {
+    font-size: 0.6125rem;
+  }
+  .maintext2 h4 {
+    font-size: 1.5rem;
+  }
+  .maintext2 p {
+    font-size: 0.75rem;
+  }
+  .imgMainDiv {
+    width: 11rem;
+    height: 11rem;
+  }
+  .imgDiv1 {
+    width: 11rem;
+    height: 11rem;
+  }
+  .imgDiv2 {
+    width: 11rem;
+    height: 11rem;
+  }
+  .maintext2 img {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  .maintext img {
+    width: 159px;
+  }
 }
