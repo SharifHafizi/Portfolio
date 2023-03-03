@@ -5,7 +5,7 @@
 /* google fonts imported and used. */
 .mainContainer {
   width: 100%;
-  min-height: 92vh;
+  min-height: 91vh;
   /* min-width: 940px; */
 
   background-color: antiquewhite;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-family: "Orbitron";
   letter-spacing: 1px;
+  padding-top: 50px;
 }
 .maintext h1 span {
   color: rgb(249, 101, 47);
@@ -51,6 +52,7 @@
   justify-content: center;
   width: 39%;
   letter-spacing: 1px;
+  padding-top: 50px;
 }
 .maintext2 h4 {
   font-size: 1.875rem;
@@ -137,9 +139,11 @@
   .maintext {
     display: flex;
     width: 55%;
+    padding-top: 0;
   }
   .maintext2 {
     width: 58%;
+    padding-top: 0;
   }
   .maintext h1 {
     font-size: 3rem;

@@ -38,7 +38,11 @@
     font-size: x-small;
   }
   .mainCon img {
-    width: 35px;
+    width: 33px;
+  }
+  .mainCon {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
