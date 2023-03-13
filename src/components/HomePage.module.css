@@ -72,6 +72,7 @@
   line-break: auto;
   padding-top: 0.625rem;
   font-family: "Orbitron";
+  font-size: clamp(12px, 1.5vw, 16px);
 }
 .maintext2 span {
   font-size: 1.25rem;

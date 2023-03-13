@@ -9,8 +9,8 @@ import img2 from "./img-file/code.jpg";
 import CV from "./img-file/My CV.docx.pdf";
 // The line bellow is the setting of slideshow Images.
 const fadeProperties = {
-  duration: 4000,
-  transitionDuration: 800,
+  duration: 2000,
+  transitionDuration: 2000,
   infinite: true,
   indicators: true,
   arrows: false,
@@ -19,9 +19,8 @@ const Images = [img, img2, newlogo2]; //Array of images.
 function About() {
   return (
     <div className={style.main}>
-      <div className={style.aboutme}>
-        <h1>About Me</h1>
-      </div>
+      <h1 className={style.aboutme}>About Me</h1>
+
       <div className={style.maincontent}>
         <div className={style.picture}>
           {/* Here inside Fade tag properties distructed and loop through array. */}

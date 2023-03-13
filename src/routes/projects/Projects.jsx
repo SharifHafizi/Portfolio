@@ -8,7 +8,7 @@ import pokedex from "./img-file/Pokedex.png";
 function Projects() {
   return (
     <div className={style.maincon}>
-      <h1> 01 My Projects</h1>
+      <h1> My Projects</h1>
       <hr />
 
       <div className={style.cards}>
@@ -20,7 +20,7 @@ function Projects() {
             alt="projectlogo"
           />
           <p>
-            New year counter project. This project were made by JS and React
+            New year counter project. This project were made with JS and React
             with some CSS.
           </p>
 
@@ -34,7 +34,7 @@ function Projects() {
             <a href="https://github.com/SharifHafizi/Christmas-Countdown.git">
               <button className={style.button2}>
                 Github
-                <img src={githublogo} alt="github logo" width="20px" />
+                <img src={githublogo} alt="github logo" width="22%" />
               </button>
             </a>
           </div>
@@ -43,7 +43,7 @@ function Projects() {
         <div className={style.containt}>
           <img className={style.projectImg} src={DrumKitJS} alt="projectlogo" />
           <p>
-            Drumkit Project which is purely made by javaScript. It works very
+            Drumkit Project which is purely made with javaScript. It works very
             fine and is ready to use as tablets or mobile apps. Internal CSS
             applied.
           </p>
@@ -58,7 +58,7 @@ function Projects() {
             <a href="https://github.com/SharifHafizi/Drum-Kit-JS.git">
               <button className={style.button2}>
                 Github
-                <img src={githublogo} alt="github logo" width="20px" />
+                <img src={githublogo} alt="github logo" width="22%" />
               </button>
             </a>
           </div>
@@ -67,8 +67,8 @@ function Projects() {
         <div className={style.containt}>
           <img className={style.projectImg} src={SSP} alt="projectlogo" />
           <p>
-            Solar system projetcs which is purely made just by HTML and CSS. It
-            was my first project after learning html and css.
+            Solar system projetcs which is purely made just with HTML and CSS.
+            It was my first project after learning html and css.
           </p>
 
           <div className={style.buttons}>
@@ -81,7 +81,7 @@ function Projects() {
             <a href="https://github.com/SharifHafizi/space-project-main">
               <button className={style.button2}>
                 Github
-                <img src={githublogo} alt="github logo" width="20px" />
+                <img src={githublogo} alt="github logo" width="22%" />
               </button>
             </a>
           </div>
@@ -104,7 +104,7 @@ function Projects() {
             <a href="https://github.com/SharifHafizi/Api-Pokedex">
               <button className={style.button2}>
                 Github
-                <img src={githublogo} alt="github logo" width="20px" />
+                <img src={githublogo} alt="github logo" width="22%" />
               </button>
             </a>
           </div>

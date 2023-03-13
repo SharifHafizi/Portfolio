@@ -4,9 +4,9 @@
   /* color palette */
 }
 .maincon {
-  width: 100vw;
-  height: 100vh;
-  min-width: 940px;
+  width: 100%;
+  min-height: 91vh;
+  /* min-width: 940px; */
   background-image: url("./img-file/map.jpg");
   background-size: cover;
   display: flex;
@@ -20,7 +20,7 @@
   font-family: "Libre Franklin", sans-serif;
   height: 64.5%;
   width: 100%;
-  top: 150px;
+  top: 130px;
   position: absolute;
 }
 
@@ -31,9 +31,10 @@
   backdrop-filter: blur(12px);
   box-shadow: var(--color-shadow);
   padding: 2%;
+  width: 24.5%;
 }
 .leftconelement {
-  padding: 12px;
+  /* padding: 12px; */
   font-size: 15px;
   line-height: 1.5;
 }
@@ -44,6 +45,7 @@
   backdrop-filter: blur(0px);
   box-shadow: var(--color-shadow);
   padding: 2%;
+  width: 50.5%;
 }
 .rightconelement {
   margin-top: 10px;
@@ -59,21 +61,21 @@
 .labelinput {
   margin-top: 6px;
   margin-bottom: 15px;
-  padding-right: 380px;
+  /* padding-right: 380px; */
   padding-left: 7px;
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
   border-radius: 5px;
-
   box-shadow: 3px 3px 5px gray;
+  width: 99.8%;
 }
 /* .labelinput:hover {
   border: 1px solid #ffa407;
   box-shadow: 0 0 7px #fa682e;
 } */
 .btn {
-  margin: 10px;
+  /* margin: 10px; */
   width: 115px;
   height: 35px;
   border-radius: 20px;
@@ -139,4 +141,29 @@
 }
 .contactlogo img:hover {
   filter: brightness(130%);
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: inherit;
+    padding-bottom: 25px;
+    padding-top: 100px;
+  }
+  .leftcontainer {
+    width: 50.5%;
+    min-width: 277px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .rightcontainer {
+    min-width: 277px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
 }

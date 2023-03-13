@@ -32,13 +32,13 @@
 }
 @media (min-width: 375px) and (max-width: 568px) {
   .mainCon h3 {
-    font-size: 14px;
+    font-size: 13px;
   }
   .mainCon p {
     font-size: x-small;
   }
   .mainCon img {
-    width: 33px;
+    width: 30px;
   }
   .mainCon {
     padding-right: 40px;
