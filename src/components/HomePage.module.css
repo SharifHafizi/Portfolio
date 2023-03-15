@@ -5,7 +5,7 @@
 /* google fonts imported and used. */
 .mainContainer {
   width: 100%;
-  min-height: 91vh;
+  min-height: 93vh;
   /* min-width: 940px; */
 
   background-color: antiquewhite;
@@ -39,8 +39,8 @@
   font-size: 0.8125rem;
 }
 .maintext img {
-  width: "183px";
-  padding-top: 0.625rem;
+  width: 183px;
+  padding-top: 0.925rem;
   position: relative;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -133,10 +133,10 @@
     align-items: center;
     gap: 20px;
     padding-top: 110px;
-    padding-bottom: 20px;
+    padding-bottom: 110px;
   }
 }
-@media (min-width: 375px) and (max-width: 568px) {
+@media (min-width: 315px) and (max-width: 568px) {
   .maintext {
     display: flex;
     width: 55%;
@@ -181,5 +181,45 @@
   }
   .maintext img {
     width: 159px;
+  }
+}
+@media (min-width: 1500px) {
+  .maintext h1 {
+    font-size: 8rem;
+  }
+  .maintext :nth-child(3) {
+    font-size: 8.7rem;
+  }
+  .maintext h3 {
+    font-size: 1.8rem;
+  }
+  .maintext img {
+    width: 350px;
+  }
+  .imgMainDiv {
+    width: 23rem;
+    height: 23rem;
+  }
+  .imgDiv1 {
+    width: 23rem;
+    height: 23rem;
+  }
+  .imgDiv2 {
+    width: 23rem;
+    height: 23rem;
+  }
+  .maintext2 img {
+    width: 22.5rem;
+    height: 22.5rem;
+  }
+  .maintext2 h4 {
+    font-size: 3.4rem;
+    padding-top: 30px;
+  }
+  .maintext2 p {
+    font-size: 2rem;
+  }
+  .maintext2 span {
+    font-size: 2.875rem;
   }
 }

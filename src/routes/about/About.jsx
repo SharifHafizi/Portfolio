@@ -18,7 +18,7 @@ const fadeProperties = {
 const Images = [img, img2, newlogo2]; //Array of images.
 function About() {
   return (
-    <div className={style.main}>
+    <main className={style.main}>
       <h1 className={style.aboutme}>About Me</h1>
 
       <div className={style.maincontent}>
@@ -31,7 +31,7 @@ function About() {
                 src={image}
                 alt="picture"
                 width="350px"
-                height="400px"
+                height="405px"
               />
             ))}
           </Fade>
@@ -70,7 +70,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 export default About;

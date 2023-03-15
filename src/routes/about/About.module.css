@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  min-height: 91vh;
+  min-height: 93vh;
   /* min-width: 940px; */
   background-color: antiquewhite;
   display: flex;
@@ -9,14 +9,16 @@
   flex-direction: column;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  z-index: -1;
 }
 .aboutme {
   /* position: absolute;
   top: 75px; */
-  font-size: clamp(45px, 15vw, 90px);
+  font-size: clamp(45px, 15vw, 80px);
   padding-top: 20px;
-  color: rgb(234 215 188);
-  text-shadow: 1px 2px 1px rgb(216, 194, 194);
+  color: coral;
+  text-shadow: 4px 5px 2px rgb(216, 194, 194);
 }
 .maincontent {
   /* position: absolute; */
@@ -29,10 +31,11 @@
 .picture {
   width: 350px;
   height: 405px;
-  top: 32px;
-  position: relative;
+  /* top: 32px;
+  position: relative; */
   border: 3px solid white;
   border-radius: 2px;
+  margin-top: 5px;
 }
 .pitch {
   display: flex;
@@ -40,7 +43,7 @@
   align-items: center;
   flex-direction: row;
   width: clamp(330px, 50%, 600px);
-  padding-top: 28px;
+  /* padding-top: 28px; */
   /* position: relative; */
 }
 .pitch h2,
@@ -91,13 +94,43 @@ p span {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding-top: 65px;
-    padding-bottom: 85px;
+    padding-bottom: 110px;
   }
   .pitch p {
     font-size: 14px;
   }
   .aboutme {
-    padding-top: 50px;
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1500px) {
+  .aboutme {
+    font-size: 130px;
+  }
+  .picture {
+    width: 600px;
+    height: 655px;
+  }
+  .picture img {
+    width: 600px;
+    height: 655px;
+  }
+  .rotate h1 {
+    font-size: 25px;
+  }
+  .pitch {
+    width: 1014px;
+  }
+  .pitch h2 {
+    font-size: 70px;
+  }
+  .pitch p {
+    font-size: 25px;
+  }
+  .cv {
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
   }
 }

@@ -46,7 +46,7 @@ function Contact() {
   }
 
   return (
-    <div className={style.maincon}>
+    <main className={style.maincon}>
       <div className={style.container}>
         <div className={style.leftcontainer}>
           <div className={style.leftconelement}>
@@ -163,7 +163,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 export default Contact;

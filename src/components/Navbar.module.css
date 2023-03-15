@@ -153,3 +153,44 @@
     color: rgb(249, 101, 47);
   }
 }
+@media (max-width: 355px) {
+  .nameLogoContainer img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .nameLogoContainer a {
+    height: 30px;
+  }
+  .name h2 {
+    margin: 0;
+    font-size: 1em;
+  }
+  .name p {
+    margin: 0;
+    font-size: 0.52em;
+  }
+}
+@media (min-width: 1500px) {
+  .navContainer {
+    height: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .nameLogoContainer a {
+    height: 80px;
+  }
+  .nameLogoContainer img {
+    height: 80px;
+    width: 80px;
+  }
+  .name h2 {
+    font-size: 45px;
+  }
+  .name p {
+    font-size: 23.1px;
+  }
+  .menuContainer a {
+    font-size: 25px;
+  }
+}

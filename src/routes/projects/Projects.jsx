@@ -7,7 +7,7 @@ import pokedex from "./img-file/Pokedex.png";
 // images imported for the projects cards.
 function Projects() {
   return (
-    <div className={style.maincon}>
+    <main className={style.maincon}>
       <h1> My Projects</h1>
       <hr />
 
@@ -116,7 +116,7 @@ function Projects() {
           <span> &#8594;</span>
         </a>
       </p>
-    </div>
+    </main>
   );
 }
 export default Projects;

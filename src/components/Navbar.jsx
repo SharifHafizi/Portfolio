@@ -8,7 +8,7 @@ function Navbar() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className={style.navContainer}>
+    <nav className={style.navContainer}>
       <div className={style.nameLogoContainer}>
         <Link to="/">
           <img src={mylogo} alt="logo" />
@@ -68,7 +68,7 @@ function Navbar() {
           CONTACT
         </Link>
       </div>
-    </div>
+    </nav>
   );
 }
 export default Navbar;

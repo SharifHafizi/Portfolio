@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 function HomePage() {
   return (
     <>
-      <div className={style.mainContainer}>
+      <main className={style.mainContainer}>
         <div className={style.maintext}>
           <h1>
             I<span>'</span>M
@@ -30,7 +30,7 @@ function HomePage() {
               }}
             />
           </h3>
-          <img src={newlogo3} alt="logo" width="183px" />
+          <img src={newlogo3} alt="logo" />
         </div>
         <div className={style.maintext2}>
           <div className={style.imgMainDiv}>
@@ -51,7 +51,7 @@ function HomePage() {
             presence or an employer looking to hire, I am here to help you.
           </p>
         </div>
-      </div>
+      </main>
     </>
   );
 }
