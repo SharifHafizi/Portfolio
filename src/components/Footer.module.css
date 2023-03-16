@@ -53,13 +53,27 @@
     padding-left: 40px;
   }
 }
-
+@media (max-width: 315px) {
+  .mainCon {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .mainCon p {
+    font-size: 10px;
+  }
+  .footerlogo h3 {
+    font-size: 11px;
+  }
+  .footerlogo img {
+    width: 25px;
+  }
+}
 @media (max-width: 935px) {
   .mainCon {
     position: fixed;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 2500px) {
   .mainCon {
     height: 100px;
     padding-left: 100px;

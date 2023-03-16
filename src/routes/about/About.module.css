@@ -89,6 +89,22 @@ p span {
   border: 1px solid azure;
   color: white;
 }
+@media (max-width: 280px) {
+  .pitch {
+    width: 275px;
+  }
+  .pitch p {
+    font-size: 10px;
+  }
+  .picture {
+    width: 250px;
+    height: 305px;
+  }
+  .picture img {
+    width: 250px;
+    height: 305px;
+  }
+}
 @media (max-width: 768px) {
   .maincontent {
     display: flex;
@@ -103,7 +119,7 @@ p span {
     padding-top: 60px;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 2500px) {
   .aboutme {
     font-size: 130px;
   }

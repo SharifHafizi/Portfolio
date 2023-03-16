@@ -4,7 +4,7 @@ import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 //slide show style.
 import newlogo2 from "./img-file/newlogo2.png";
-import img from "./img-file/colors.jpg";
+import img from "./img-file/oslo.jpg";
 import img2 from "./img-file/code.jpg";
 import CV from "./img-file/My CV.docx.pdf";
 // The line bellow is the setting of slideshow Images.

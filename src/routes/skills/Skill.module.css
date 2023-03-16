@@ -84,7 +84,7 @@
   width: 55%;
   max-width: 81px;
 }
-@media (min-width: 315px) and (max-width: 768px) {
+@media (min-width: 280px) and (max-width: 768px) {
   .maincon {
     position: absolute;
     z-index: -1;
@@ -112,7 +112,7 @@
     }
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 2500px) {
   .maincon h1 {
     font-size: 108px;
     top: 118px;

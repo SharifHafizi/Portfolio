@@ -103,7 +103,7 @@
     font-size: 40px;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 2500px) {
   .maincon h1 {
     font-size: 6rem;
   }

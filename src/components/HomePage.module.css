@@ -134,9 +134,11 @@
     gap: 20px;
     padding-top: 110px;
     padding-bottom: 110px;
+    position: Absolute; /* Becouse of humber menu to pop up at the top of everything i made position absolute and z index to -1; */
+    z-index: -1;
   }
 }
-@media (min-width: 315px) and (max-width: 568px) {
+@media (min-width: 280px) and (max-width: 568px) {
   .maintext {
     display: flex;
     width: 55%;
@@ -183,7 +185,7 @@
     width: 159px;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 2500px) {
   .maintext h1 {
     font-size: 8rem;
   }
