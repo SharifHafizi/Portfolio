@@ -48,18 +48,6 @@
 
   box-shadow: var(--color-shadow);
 }
-.logo1 {
-  /* position: absolute;
-  top: 200px; */
-}
-.logo2 {
-  /* position: absolute;
-  top: 80px; */
-}
-.logo3 {
-  /* position: absolute;
-  top: 160px; */
-}
 
 .white {
   height: 93vh;
@@ -102,6 +90,7 @@
       ". ."
       ". .";
     gap: 30px;
+    justify-items: center;
   }
   .card {
     width: 90px;
