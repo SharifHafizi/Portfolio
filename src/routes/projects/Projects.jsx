@@ -4,6 +4,9 @@ import NewyearProjet from "./img-file/project-newyear.png";
 import DrumKitJS from "./img-file/DrumKitJS.png";
 import SSP from "./img-file/Solar-System-Project.png";
 import pokedex from "./img-file/Pokedex.png";
+import CSS3D from "./img-file/CSS-3D.png";
+import RandomPass from "./img-file/RandomPass.png";
+import converter from "./img-file/converter.png";
 // images imported for the projects cards.
 function Projects() {
   return (
@@ -133,17 +136,44 @@ function Projects() {
             </a>
           </div>
         </div>
-
+        {/* Fifth Card */}
         <div className={style.containt}>
-          <img className={style.projectImg} src={pokedex} alt="projectlogo" />
+          <img className={style.projectImg} src={CSS3D} alt="projectlogo" />
           <p>
-            Pokedex projects is maded with JS and CSS. In this project we
-            learned how to use API and fetch data.
+            This is a 3D image veiwer with animation which is purely made in
+            CSS.
+          </p>
+
+          <div className={style.buttons}>
+            <a href="https://sharifhafizi.github.io/CSS-3D/" target="_blank">
+              <button className={style.button1}>
+                Live <span>&#8227;</span>
+              </button>
+            </a>
+
+            <a href="https://github.com/SharifHafizi/CSS-3D" target="_blank">
+              <button className={style.button2}>
+                Github
+                <img src={githublogo} alt="github logo" width="22%" />
+              </button>
+            </a>
+          </div>
+        </div>
+        {/* Sixth Card */}
+        <div className={style.containt}>
+          <img
+            className={style.projectImg}
+            src={RandomPass}
+            alt="projectlogo"
+          />
+          <p>
+            This Project is made in JS and CSS which generate strong password
+            for the user safety.
           </p>
 
           <div className={style.buttons}>
             <a
-              href="https://sharifhafizi.github.io/Api-Pokedex/"
+              href="https://sharifhafizi.github.io/Random-pass/"
               target="_blank"
             >
               <button className={style.button1}>
@@ -152,7 +182,35 @@ function Projects() {
             </a>
 
             <a
-              href="https://github.com/SharifHafizi/Api-Pokedex"
+              href="https://github.com/SharifHafizi/Random-pass"
+              target="_blank"
+            >
+              <button className={style.button2}>
+                Github
+                <img src={githublogo} alt="github logo" width="22%" />
+              </button>
+            </a>
+          </div>
+        </div>
+        {/* Seventh Card */}
+        <div className={style.containt}>
+          <img className={style.projectImg} src={converter} alt="projectlogo" />
+          <p>
+            This Project is made in JS and CSS which converts different unites.
+          </p>
+
+          <div className={style.buttons}>
+            <a
+              href="https://sharifhafizi.github.io/Unit-converter/"
+              target="_blank"
+            >
+              <button className={style.button1}>
+                Live <span>&#8227;</span>
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/SharifHafizi/Unit-converter"
               target="_blank"
             >
               <button className={style.button2}>
