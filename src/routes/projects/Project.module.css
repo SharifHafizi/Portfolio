@@ -29,7 +29,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  width: 22%;
+  /* width: 22%; */
   height: 345px;
   border-radius: 10px;
 }
@@ -76,12 +76,28 @@
 }
 
 .cards {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 15px;
+  width: 80%; */
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
   width: 80%;
+  height: 345px;
+  overflow: auto;
+  cursor: pointer;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .cards::-webkit-scrollbar {
+  display: none;
+} */
 .buttons a {
   text-decoration: none;
   width: 44%;
@@ -98,6 +114,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto; /* to avoid scroling div*/
   }
   .maincon h1 {
     font-size: 40px;

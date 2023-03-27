@@ -25,13 +25,19 @@ function Projects() {
           </p>
 
           <div className={style.buttons}>
-            <a href="https://sharifhafizi.github.io/Christmas-Countdown/">
+            <a
+              href="https://sharifhafizi.github.io/Christmas-Countdown/"
+              target="_blank"
+            >
               <button className={style.button1}>
                 Live <span>&#8227;</span>
               </button>
             </a>
 
-            <a href="https://github.com/SharifHafizi/Christmas-Countdown.git">
+            <a
+              href="https://github.com/SharifHafizi/Christmas-Countdown.git"
+              target="_blank"
+            >
               <button className={style.button2}>
                 Github
                 <img src={githublogo} alt="github logo" width="22%" />
@@ -49,13 +55,19 @@ function Projects() {
           </p>
 
           <div className={style.buttons}>
-            <a href="https://sharifhafizi.github.io/Drum-Kit-JS/">
+            <a
+              href="https://sharifhafizi.github.io/Drum-Kit-JS/"
+              target="_blank"
+            >
               <button className={style.button1}>
                 Live <span>&#8227;</span>
               </button>
             </a>
 
-            <a href="https://github.com/SharifHafizi/Drum-Kit-JS.git">
+            <a
+              href="https://github.com/SharifHafizi/Drum-Kit-JS.git"
+              target="_blank"
+            >
               <button className={style.button2}>
                 Github
                 <img src={githublogo} alt="github logo" width="22%" />
@@ -72,13 +84,19 @@ function Projects() {
           </p>
 
           <div className={style.buttons}>
-            <a href="https://sharifhafizi.github.io/space-project-main/">
+            <a
+              href="https://sharifhafizi.github.io/space-project-main/"
+              target="_blank"
+            >
               <button className={style.button1}>
                 Live <span>&#8227;</span>
               </button>
             </a>
 
-            <a href="https://github.com/SharifHafizi/space-project-main">
+            <a
+              href="https://github.com/SharifHafizi/space-project-main"
+              target="_blank"
+            >
               <button className={style.button2}>
                 Github
                 <img src={githublogo} alt="github logo" width="22%" />
@@ -95,13 +113,48 @@ function Projects() {
           </p>
 
           <div className={style.buttons}>
-            <a href="https://sharifhafizi.github.io/Api-Pokedex/">
+            <a
+              href="https://sharifhafizi.github.io/Api-Pokedex/"
+              target="_blank"
+            >
               <button className={style.button1}>
                 Live <span>&#8227;</span>
               </button>
             </a>
 
-            <a href="https://github.com/SharifHafizi/Api-Pokedex">
+            <a
+              href="https://github.com/SharifHafizi/Api-Pokedex"
+              target="_blank"
+            >
+              <button className={style.button2}>
+                Github
+                <img src={githublogo} alt="github logo" width="22%" />
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div className={style.containt}>
+          <img className={style.projectImg} src={pokedex} alt="projectlogo" />
+          <p>
+            Pokedex projects is maded with JS and CSS. In this project we
+            learned how to use API and fetch data.
+          </p>
+
+          <div className={style.buttons}>
+            <a
+              href="https://sharifhafizi.github.io/Api-Pokedex/"
+              target="_blank"
+            >
+              <button className={style.button1}>
+                Live <span>&#8227;</span>
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/SharifHafizi/Api-Pokedex"
+              target="_blank"
+            >
               <button className={style.button2}>
                 Github
                 <img src={githublogo} alt="github logo" width="22%" />
@@ -112,7 +165,7 @@ function Projects() {
       </div>
       <p>
         For more projects please visit here{" "}
-        <a href="https://github.com/SharifHafizi">
+        <a href="https://github.com/SharifHafizi" target="_blank">
           <span> &#8594;</span>
         </a>
       </p>

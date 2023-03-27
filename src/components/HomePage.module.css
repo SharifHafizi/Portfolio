@@ -102,6 +102,7 @@
     white 51%,
     rgb(249, 101, 47) 51%
   );
+
   border-radius: 50%;
   animation-name: rotate;
   animation-duration: 110s;

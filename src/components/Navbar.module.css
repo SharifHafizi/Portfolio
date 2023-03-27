@@ -83,7 +83,7 @@
   height: 2.5px;
   display: block;
   background: orange;
-  transition: 1500ms;
+  transition: 1000ms;
 }
 
 .link:hover::after {

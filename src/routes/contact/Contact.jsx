@@ -78,13 +78,13 @@ function Contact() {
             </div>
           </div>
           <div className={style.contactlogo}>
-            <a href="https://discord.com/channels/@me">
+            <a href="https://discord.com/channels/@me" target="_blank">
               <img src={discordIcon} alt="discord" />
             </a>
-            <a href="https://github.com/SharifHafizi">
+            <a href="https://github.com/SharifHafizi" target="_blank">
               <img src={githubIcon} alt="github" />
             </a>
-            <a href="mailto:sharif.hafizi97@gmail.com">
+            <a href="mailto:sharif.hafizi97@gmail.com" target="_blank">
               <img src={gmail} alt="gmail" />
             </a>
             <img src={linkedIn} alt="in" />

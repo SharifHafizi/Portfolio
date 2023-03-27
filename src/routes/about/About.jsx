@@ -64,8 +64,8 @@ function About() {
               healthy. I go to the gym almost every day and play volleyball in
               my spare time. Also doing brain exercise with writing code .
             </p>
-            <a href={CV} download>
-              <button className={style.cv}>Download CV</button>
+            <a href={CV} target="_blank">
+              <button className={style.cv}>View My CV</button>
             </a>
           </div>
         </div>
