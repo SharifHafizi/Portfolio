@@ -57,6 +57,7 @@ function Contact() {
             <h2>Contact Me</h2>
             <h4>I would love to hear from you !</h4>
             <br />
+            {/* contact part */}
             <div className={style.contacttext}>
               <div className={style.emoji}>☎</div>
               <a href="tel:+4793898381">
@@ -78,22 +79,26 @@ function Contact() {
             </div>
           </div>
           <div className={style.contactlogo}>
+            {/* Discort link */}
             <a href="https://discord.com/channels/@me" target="_blank">
               <img src={discordIcon} alt="discord" />
             </a>
+            {/* Github link */}
             <a href="https://github.com/SharifHafizi" target="_blank">
               <img src={githubIcon} alt="github" />
             </a>
+            {/* Gmail link  */}
             <a href="mailto:sharif.hafizi97@gmail.com" target="_blank">
               <img src={gmail} alt="gmail" />
             </a>
+            {/* Linkedin link */}
             <a
               href="https://www.linkedin.com/in/sharif-hafizi-21370b26b/"
               target="_blank"
             >
               <img src={linkedIn} alt="in" />
             </a>
-
+            {/* Twitter  */}
             <img src={twitter} alt="twitter" />
           </div>
         </div>
