@@ -8,7 +8,10 @@ function Footer() {
       <p> &#169; 2023 Sharif Hafizi. All Rights Reserved.</p>
       <div className={style.footerlogo}>
         <h3>Connect</h3>
-        <a href="" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/sharif-hafizi-21370b26b/"
+          target="_blank"
+        >
           <img src={linkedin} alt="" linkedin width="45px" />
         </a>
         <a href="https://github.com/SharifHafizi" target="_blank">

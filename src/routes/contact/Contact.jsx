@@ -87,7 +87,12 @@ function Contact() {
             <a href="mailto:sharif.hafizi97@gmail.com" target="_blank">
               <img src={gmail} alt="gmail" />
             </a>
-            <img src={linkedIn} alt="in" />
+            <a
+              href="https://www.linkedin.com/in/sharif-hafizi-21370b26b/"
+              target="_blank"
+            >
+              <img src={linkedIn} alt="in" />
+            </a>
 
             <img src={twitter} alt="twitter" />
           </div>
