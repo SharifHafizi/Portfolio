@@ -6,7 +6,7 @@ import "react-slideshow-image/dist/styles.css";
 import newlogo2 from "./img-file/newlogo2.png";
 import img from "./img-file/oslo.jpg";
 import img2 from "./img-file/code.jpg";
-import CV from "./img-file/Sharif Hafizi CV 2023 new.docx.pdf";
+import CV from "./img-file/Sharif Hafizi CV 2023.docx.pdf";
 // The line bellow is the setting of slideshow Images.
 const fadeProperties = {
   duration: 2000,
