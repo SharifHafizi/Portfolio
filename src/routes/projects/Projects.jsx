@@ -7,6 +7,7 @@ import pokedex from "./img-file/Pokedex.png";
 import CSS3D from "./img-file/CSS-3D.png";
 import RandomPass from "./img-file/RandomPass.png";
 import converter from "./img-file/converter.png";
+import weatherApp from "./img-file/weatherApp.png";
 // images imported for the projects cards.
 function Projects() {
   return (
@@ -211,6 +212,39 @@ function Projects() {
 
             <a
               href="https://github.com/SharifHafizi/Unit-converter"
+              target="_blank"
+            >
+              <button className={style.button2}>
+                Github
+                <img src={githublogo} alt="github logo" width="22%" />
+              </button>
+            </a>
+          </div>
+        </div>
+        {/* Eighth Card */}
+        <div className={style.containt}>
+          <img
+            className={style.projectImg}
+            src={weatherApp}
+            alt="projectlogo"
+          />
+          <p>
+            This Project is made with Vite, JS, Tailwind CSS and used API to
+            fetch data for the weather forecast.
+          </p>
+
+          <div className={style.buttons}>
+            <a
+              href="https://sharifhafizi.github.io/weather-app/"
+              target="_blank"
+            >
+              <button className={style.button1}>
+                Live <span>&#8227;</span>
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/SharifHafizi/weather-app"
               target="_blank"
             >
               <button className={style.button2}>
