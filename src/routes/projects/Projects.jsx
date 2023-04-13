@@ -235,7 +235,7 @@ function Projects() {
 
           <div className={style.buttons}>
             <a
-              href="https://sharifhafizi.github.io/weather-app/"
+              href="https://sharifhafizi.github.io/Weather-App/"
               target="_blank"
             >
               <button className={style.button1}>
@@ -244,7 +244,7 @@ function Projects() {
             </a>
 
             <a
-              href="https://github.com/SharifHafizi/weather-app"
+              href="https://github.com/SharifHafizi/Weather-App"
               target="_blank"
             >
               <button className={style.button2}>
