@@ -54,7 +54,7 @@ function Navbar() {
 
       <div className={style.menuContainer}>
         <Link to="/" className={style.link}>
-          <span>HOME</span>
+          HOME
         </Link>
         <Link to="/projects" className={style.link}>
           PROJECTS

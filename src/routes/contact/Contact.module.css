@@ -73,10 +73,9 @@
   box-shadow: 3px 3px 5px gray;
   width: 99.8%;
 }
-/* .labelinput:hover {
-  border: 1px solid #ffa407;
-  box-shadow: 0 0 7px #fa682e;
-} */
+.labelinput:hover {
+  box-shadow: 0 0 7px #737373;
+}
 .btn {
   /* margin: 10px; */
   width: 115px;

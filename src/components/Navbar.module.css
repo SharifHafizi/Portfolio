@@ -41,12 +41,14 @@
 .name h2 {
   margin: 0;
   font-size: 27px;
+  /* text-shadow: 2px 2px 4px rgb(88 85 85); */
 }
 .name p {
   margin: 0;
   font-size: 13.9px;
   font-weight: 600;
   color: rgb(249, 101, 47);
+  /* text-shadow: 3px 2px 4px #b35f08; */
 }
 .menuContainer {
   display: flex;

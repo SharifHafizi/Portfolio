@@ -22,9 +22,6 @@
   font-size: 54px;
   position: absolute;
   text-shadow: 4px 5px 2px rgb(216, 194, 194);
-
-  /* display: block;
-  margin: auto; */
 }
 
 .logo {
@@ -63,14 +60,18 @@
   background: repeating-linear-gradient(45deg, #363636, transparent 220px);
   border: 2px solid coral;
 }
+.card:hover {
+  transition: ease-in;
+  scale: 0.95;
+}
 
 .card h2 {
   color: rgb(255, 255, 255);
   font-size: clamp(1.3rem, 1.5vw, 1.4rem);
 }
-.logo img {
+.card img {
   width: 55%;
-  max-width: 81px;
+  max-width: 65px;
 }
 @media (min-width: 280px) and (max-width: 768px) {
   .maincon {
@@ -107,7 +108,7 @@
     top: 118px;
   }
   .logo img {
-    max-width: none;
+    max-width: 140px;
   }
   .logo h2 {
     font-size: 2rem;
