@@ -17,11 +17,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/projects" element={<HomePage />} />
+          <Route path="/skills" element={<HomePage />} />
+          <Route path="/about" element={<HomePage />} />
+          <Route path="/contact" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
         <Footer />
       </div>

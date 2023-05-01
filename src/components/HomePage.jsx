@@ -15,7 +15,7 @@ function HomePage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2800);
+    }, 280000);
   }, []);
 
   const override = css`
@@ -35,8 +35,9 @@ function HomePage() {
             speedMultiplier={0.5}
           />
           <br />
-          <h3>Work Until You Succeed</h3>
+          {/* <h3>Work Until You Succeed</h3> */}
           <h4>Loading....</h4>
+          <h3>My site is under development and will be back soon.</h3>
         </center>
       ) : (
         <main className={style.mainContainer}>
