@@ -15,7 +15,7 @@ function HomePage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 280000);
+    }, 2800);
   }, []);
 
   const override = css`
